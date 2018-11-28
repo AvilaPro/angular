@@ -1,0 +1,82 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.flex-container {
+  width: 60%;
+  height: 500px;
+  background: gray;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  /*
+			flex-direction:
+			row - fila
+			row-reverse fila al contrario
+			column - columna
+			column-reverse columna al contrario
+		*/
+  flex-wrap: wrap;
+  /*
+			flex-wrap:
+			-nowrap - por defecto, ajusta los anchos
+					  de los hijos en el padre
+			-wrap - muestra el tamaño original de
+					los hijos y los acomoda en el padre
+			-wrap-reverse - igual que wrap pero al contrario
+		*/
+  justify-content: space-between;
+  /*
+			justify-content:
+			-flex-start
+			-flex-end
+			-center
+			-space-around
+			-space-between
+			-space-evenly
+		*/
+  align-items: center;
+  /*
+			align-items: 
+			-flex-start
+			-flex-end
+			-center
+			-space-around
+			-space-between
+			-stretch
+		*/
+}
+
+.flex-item {
+  background: orange;
+  padding: 5px;
+  margin: 5px;
+  /*width: 100px;
+		height: 200px;*/
+  height: 90%;
+  flex-grow: 1;
+  font-size: 25px;
+  transition: 0.2s ease-in-out;
+}
+
+.flex-item:nth-child(2) {
+  background: #90CAF9;
+  order: 2;
+  flex-grow: 3;
+}
+
+.flex-item:nth-child(5) {
+  background: #66BB6A;
+  order: 1;
+}
+
+.flex-item-item:hover {
+  transform: scale(1.2);
+}
+
+#it1 {
+  background: blue;
+}
