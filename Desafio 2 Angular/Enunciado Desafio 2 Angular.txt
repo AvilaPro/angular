@@ -1,0 +1,12 @@
+﻿
+Crear un proyecto nuevo de Angular, modificar la plantilla (HTML) del componente principal para mostrar una tabla con las notas de varios alumnos. Realizar las siguientes actividades:
+
+1.- En el archivo TypeScript del componente principal declarar una clase Alumno que tenga los atributos cédula, nombre y un arreglo de notas. Programar el método constructor para que reciba los datos de los atributos
+
+2.- Declarar en la clase del componente principal una variable que almacene el número de la sección y el nombre del profesor. Mostrar ambos datos en el HTML usando binding de interpolación
+
+3.- Declarar en la clase del componente principal un atributo con el nombre "alumnos" que sea un arreglo de objetos de la clase Alumno. Instanciar varios objetos de la clase Alumno con valores arbitrarios y agregarlos al arreglo
+
+4.- Utilizar la directiva ngFor (para las filas) para mostrar los datos de los alumnos en la tabla (cédula, nombre y notas)
+
+5.- Colocar un botón en cada fila. Programar el botón para que al hacer "click" se ejecute un método que muestre un alert con la información del alumno al que se le hizo click

@@ -1,0 +1,13 @@
+Enunciado de la tarea 3 de la sección 2755
+
+Crear un proyecto nuevo de Angular y realizar las siguientes actividades:
+
+1.- Definir una clase TypeScript con el nombre Producto que contenga los atributos públicos: código, nombre y precio.
+
+2.- Declarar en la clase del componente principal un arreglo vacío de objetos de la clase Producto (con el nombre "productos") y una variable (con el nombre "productoActual") de tipo Producto.
+
+3.- Agregar a la vista del componente un formulario con inputs que solicite los datos del producto: código, nombre y precio, y un botón para agregar el producto. Hacer el binding de doble vía con cada atributo del objeto "productoActual". Colocar a estos inputs algunas validaciones.
+
+4.- Programar la respuesta al evento click sobre el botón, para que se agregue el "productoActual" al arreglo de "productos" e inmediatamente se instancie nuevamente la clase Producto para que los inputs queden vacíos.
+
+5.- Mostrar la lista de productos en el mismo HTML utilizando la directiva *ngFor

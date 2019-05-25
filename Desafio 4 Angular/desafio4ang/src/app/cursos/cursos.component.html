@@ -1,0 +1,6 @@
+<h1>Estos son los cursos:</h1>
+<div>
+  <div *ngFor="let c of cursos">
+    <a [routerLink]="['/detalle',c.id]">{{c.nombre}}</a>
+  </div>
+</div>

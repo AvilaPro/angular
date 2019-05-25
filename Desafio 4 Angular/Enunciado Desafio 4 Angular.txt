@@ -1,0 +1,36 @@
+Enunciado de la tarea 4 de la secci�n 2755
+
+Crear un proyecto nuevo y realiza las siguientes actividades:
+
+1.- Crea cinco (5) componentes, los cuales se llamaran: home, 
+cursos, detalle, registro y notFound. Arma las rutas necesarias 
+para cada componente, donde 'home' sera la ruta base o ra�z, 
+'detalle' recibir� un par�metro 'id' y notFound sera para las 
+paginas que no existan.
+
+2.- Crea un Nav el cual tenga un logo y el nombre de una empresa y 
+tenga 3 botones lo cuales redirijan a la vista de 'home', la de 
+'cursos' y la de 'registro'.
+
+3.- Crea un servicio el cual se llame 'curso', 
+el cual tenga un array llamado Cursos de tipo 'curso', 
+sumado a eso que el servicio tenga 3 funciones, 
+el primero (1) que retorne el array de cursos, (2) 
+que retorne un curso especifico a trav�s de su id y 
+(3) que reciba por par�metros los datos necesario para
+crear un curso y que se agregue al array de cursos.
+
+4.- En los componente: - en el componente de home, 
+colocar informaci�n acerca de la empresa. - 
+en el componente de cursos, llamar al servicio y mostrar 
+en el html todos los cursos disponibles en el array y que 
+al hacer click sobre uno redirija a detalle. - 
+en el componente de registro, colocar un form con los 
+inputs necesario para registrar un curso y llamar al 
+servicio para agregar el curso al array. - en el 
+componente de notFound, que se muestre un mensaje de 
+que la pagina buscada no existe ( error 404).
+
+5.- En el componente de detalle, que se conecte con el 
+servicio y pida al servicio un curso por su id, y 
+muestre la informaci�n de ese curso en el html.
