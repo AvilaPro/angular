@@ -1,0 +1,4 @@
+1. Primero que todo debes instalar node.js en tu maquina. Para ello ir al sitio web oficial de node.js: nodejs.org
+2. Recomiendo al instalar nodejs instalar las otras sugerencias como C/C++ y visual Studio, esto por si quieres correr y ejecutar luego aplicaciones nativas.
+ Lo bueno de que el mismo descargue e instale dichas aplicaciones y complementos es que ya el sabe lo que necesita y te ahorra el trabajo de tener que hacerlo paso a paso.
+3. 
